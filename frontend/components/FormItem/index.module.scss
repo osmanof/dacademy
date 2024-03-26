@@ -1,0 +1,39 @@
+.formItemTitle {
+  font-size: 1em;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.formItemInputBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 67%;
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  width: 460px;
+  margin: 40px 0;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+
+.errorField {
+  border: 1px red solid !important;
+}
+
+.formItemInput {
+  background: rgb(240 240 240 / 42%);
+  border: none;
+  border-bottom: 1px solid #ccdbe4;
+  box-sizing: border-box;
+  height: 30px;
+  width: 100%;
+  outline: none;
+  font-family: var(--font-inter);
+  padding-left: 12px;
+}
